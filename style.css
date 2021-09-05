@@ -1,0 +1,41 @@
+/*sercice section*/
+.service-content{
+    margin: 40px 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.service-content .brown{
+background:#7d4b4b ;
+color: #e6d2d2;
+padding: 80px;
+width: 46%;
+border-radius: 0 75px 75px 0;
+margin-left: 100px;
+font-weight: 350;
+float: left;
+clear: right;
+}
+.service-content .green{
+background: #4f7d4b;
+color:#d4988e ;
+padding: 80px;
+width: 35%;
+margin-right: 100px;
+border-radius: 75px 0 0 75px;
+font-weight: 350;
+float: right;
+clear: left;
+}
+.service-content .purple{
+background: #340e9d;
+color: #d6e7d4;
+padding:80px ;
+margin-left:100px ;
+border-radius:0 75px 75px 0;
+font-weight: 350;
+float: left;
+clear: right;
+}
